@@ -5,10 +5,13 @@
 }
 
 .container {
-    
+    background-color: #b91450;
 }
 
 
-.calcolatore {
-
+.informazioni {
+    background-color: white;
+    height: 200px;
+    width: 500;
+    border-radius: 20px;
 }
