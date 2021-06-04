@@ -18,8 +18,9 @@
 
 /* testi informatici per input */
 
-.nome {
+.nome #nome {
     color: #bb2c60;
+    background-color: none;
 }
 
 input {
