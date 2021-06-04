@@ -37,3 +37,16 @@ input {
     border: 1px solid #b883b9;
     padding: 5px 10px;
 }
+
+/* Biglietto */
+
+.stampa {
+    background-color: white;
+    height: 200px;
+    width: 500;
+}
+
+.passeggero {
+    background-color: #808080;
+    color: black;
+}
