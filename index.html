@@ -25,23 +25,23 @@
                     <div class=" my-2 col-12 d-flex justify-content-around fw-bolder">
 
                         <!-- raccolte dati per biglietto -->
-                        <div class="nome my-3">
-                            <label for="Nome">Nome e Cognome</label><br>
-                            <input type="text" id="Nome">
+                        <div class="caselle my-3">
+                            <label for="nome">Nome e Cognome</label><br>
+                            <input type="text" id="nome">
                         </div>
     
-                        <div class="nome my-3">
-                            <label for="Nome">Km da percorrere</label><br>
-                            <input type="text" id="Nome">
+                        <div class="caselle my-3">
+                            <label for="km">Km da percorrere</label><br>
+                            <input type="text" id="Km">
                         </div>
     
-                        <div class="nome my-3">
-                            <label for="Nome">Fascia di età</label><br>
-                            <select type="text" id="nome">
-                                <option value="volvo">-</option>
-                                <option value="saab">Minorenne</option>
-                                <option value="opel">Over65</option>
-                                <option value="audi">Maggiorenne</option>
+                        <div class="caselle my-3">
+                            <label for="eta">Fascia di età</label><br>
+                            <select type="text" id="eta">
+                                <option value="">-</option>
+                                <option value="">Minorenne</option>
+                                <option value="">Over65</option>
+                                <option value="">Maggiorenne</option>
                             </select>
                         </div>
                         <!--end raccolte dati per biglietto -->
@@ -74,7 +74,7 @@
         <!-- parte inferiore dove ho il risultato -->
 
         <div class="row">
-            <section id="" class="biglietto" >
+            <section id="ticket" class="biglietto" >
                 <!-- titolo parte superiore -->
                 <h2 class="text-white my-5 text-uppercase fw-bolder" >IL TUO BIGLIETTO</h2>
                 <div class="stampa my-2">
@@ -85,7 +85,10 @@
                             <div class="passeggero fw-bolder text-start p-3">
                                 NOME <br>
                                 PASSEGGERO <br>
-                                Pippo
+                                
+                            </div>
+                            <div class="naming">
+
                             </div>
                         </div>
                         <div class="col">
@@ -93,7 +96,7 @@
                                 <div class="col-3">
                                     <div class="sconto">
                                         Offerta
-                                        <div class="offerta">
+                                        <div id="offerta">
                                             
                                         </div>
                                     </div>
@@ -101,7 +104,7 @@
                                 <div class="col-3">
                                     <div class="sconto">
                                         Carrozza
-                                        <div class="carrozza">
+                                        <div id="carrozza">
                                             
                                         </div>
                                     </div>
@@ -109,7 +112,7 @@
                                 <div class="col-3">
                                     <div class="sconto">
                                         Codice <br>CP
-                                        <div class="codice">
+                                        <div id="codice">
                                             
                                         </div>
                                     </div>
@@ -123,9 +126,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
-
-
+     
                         </div>
 
                     </div>
